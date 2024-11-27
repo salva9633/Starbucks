@@ -1,0 +1,180 @@
+*{
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  
+  }
+  body{
+    overflow-x: hidden;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    header{
+      display: flex;
+      align-items: center;
+      background-color: #fff;
+      height: 100px;
+      padding: 0 40px;
+      position: relative;
+      box-shadow: rgba(128, 128,128,0.726) 0 1px 3px;
+    }
+    .nav{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .nav ul, 
+    .nav div:nth-child(2), 
+    .nav.location ,
+    .nav .account{
+      display: flex;
+      align-items: center;
+      height: 100px;
+    }
+    .nav ul a{
+      height: 100%;
+        }
+        .nav ul li{
+          margin-left: 20px;
+          color: #000;
+          font-weight: 700;
+          font-size: 16px;
+          display: flex;
+          align-items: center;
+          height: 100%;
+        
+        }
+      .nav .location img{
+        padding-top: 5px;
+  
+      }
+      .nav ul li:hover{
+        color: green;
+      }
+  
+      .nav div:nth-child(2) div{
+        margin:0 10px;
+      }
+      .nav .store{
+        color: black;
+        font-weight: 500;
+        margin-right: 30px;
+      }
+      .nav .store:hover{
+        color: green;
+      }
+      .button1,.button2{
+         color: black;
+         padding: 5px 15px;
+         border: 1px solid black;
+         border-radius: 50px;
+         font-weight: 500;
+         font-size: 15px;
+      }
+      .button1:hover{
+        background-color: rgba(128, 128,128,0.192);
+      }
+      .button2:hover{
+        background-color: gray;
+      }
+      .button2{
+        color: white;
+        background-color: #000;
+      }
+      .banner .banner-item{
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+      }
+      .banner .banner-item img{
+        width: 50vw;
+      }
+      .banner .banner-text{
+        text-align: center;
+        margin: 0 7%;
+      }
+      .banner-text h1{
+        font-size: 50px;
+        margin-bottom: 30px;
+        color: white;
+      }
+      .banner-text p{
+        font-size: 24px;
+        font-weight: 500;
+        margin-bottom: 50px;
+        color: white;
+      }
+  
+      .footer{
+        margin-top: 30px;
+      }
+  
+      .footer-opt{
+        padding: 30px;
+        border-bottom: 1px solid rgba(128, 128,128,0.521);
+        display: flex;
+        justify-content: flex-start;
+      }
+      .footer-opt div{
+        margin: 0 15px;
+        width: 15vw;
+      }
+      .footer-head{
+        padding: 20px 0;
+      }
+  
+      .footer-head h3{
+        color: rgba(0,0,0,0.8);
+      }
+      .footer-list{
+        padding: 5px 0;
+      }
+      .footer-list li{
+        padding: 15px 0;
+        color: rgba(0,0,0,0.596);
+        font-weight: 500;
+      }
+  
+      .footer-opt2{
+        padding: 40px 50px;
+      }
+      .footer-opt2 .social{
+        margin-left: -5px;
+      }
+      .footer-opt2 .social .icon{
+        width: 40px;
+        padding: 5px;
+        margin-bottom: 30px;
+        opacity: 0.9;
+        border-radius: 50%;
+      
+      }
+      .footer .social .icon:hover{
+        background-color: rgba(128, 128,128,0.281);
+      }
+  
+      .footer-opt2 .copy-desc a{
+        color: #000;
+        display: inline-block;
+        padding-right: 20px;
+        margin-bottom: 20px;
+        
+      }
+      .footer-opt2 .copy-desc a:not(:first-child){
+         padding-left: 30px;
+         border-left: 2px solid rgba(0,0,0,0.534);
+      }
+  
+      .footer-opt2 .copy-desc a:hover{
+        text-decoration: underline;
+      }
+      .footer-opt2 .copyright{
+        margin-top: 20px;
+        color: rgba(0,0,0,0.466);
+      }
+  
+       
